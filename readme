@@ -2,4 +2,9 @@ jdhjknm,lsahnfal
 nbchuinj
 git is a available software
 the test of a branch
+<<<<<<< HEAD
 Creating a new branch is simple & quike
+=======
+Creating a new branch is quike AND simple
+>>>>>>> feacher1
+Creating a new branch is quike and simple
