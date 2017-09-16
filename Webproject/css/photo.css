@@ -1,0 +1,349 @@
+.animalPhoto{
+	width:100%;
+	max-width: 1920px;
+	min-width: 1000px;
+	height:1000px;
+	background-color:darkslategrey;
+	background-image: url(../img/carme.png);
+	background-repeat: repeat-x;
+	background-position: 50% 12%;
+	margin:auto;
+	position:relative;
+	z-index: 1;
+}
+.animalPhotoBox{
+	width:100%;
+	height:1000px;
+	margin:auto;
+	
+}
+.animalPhotoBox li{
+	transition:all 0.5s;
+	float:left;
+}
+.animalPhotoBox img{
+	width:220px;
+	height:220px;
+	position: absolute;
+	transition: all 1s;
+	border: 10px solid saddlebrown;
+}
+.animalPhotoBox img:nth-child(1){
+	left:100px;
+	top:200px;
+	transform: rotate(-20deg);
+}
+.animalPhotoBox img:nth-child(2){
+	right:1050px;
+	bottom:100px;
+	transform:rotate(20deg);
+	
+}
+.animalPhotoBox img:nth-child(3){
+	right:850px;
+	bottom:100px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:nth-child(4){
+	right:650px;
+	bottom:100px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:nth-child(5){
+	right:450px;
+	bottom:100px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:nth-child(6){
+	right:250px;
+	bottom:100px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:nth-child(7){
+	right:50px;
+	bottom:100px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:nth-child(8){
+	right:100px;
+	top:200px;
+	transform:rotate(20deg);
+}
+.animalPhotoBox img:hover{
+	transform:scale(1.2);
+}
+
+
+ .nav1{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow: hidden;
+		background:#D0D0D0 repeat-y;
+	width:15em;
+		
+		
+		
+	}
+	.nav1 li{
+		float:left;
+		transition:all 0.5s;
+		padding-left:20px;
+		
+	}
+	.nav1 a{
+		display: block;
+		padding: 0 3em;
+		text-decoration: none;
+		line-height: 8em;
+		color:#000;
+		background: url(img/divider.gif) repeat-y left top;
+		font-size: 22px;
+
+	}
+    .nav1.first a{
+    	background-image: none;
+    }
+    .nav1 li:hover,
+    .nav1 li:focus{
+    	background-color:darkseagreen;
+
+    }
+    
+
+.psTabs{
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0px auto;
+	 position: relative;
+	 top:20px;
+}
+.psTabsBox{
+	width: 100%;
+	height: 1000px;
+	margin: 0px auto;
+	
+}
+.psTabsBox li{
+	display: block;
+	
+}
+.psTabsBox li a{
+	display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #ccc repeat-y left top;
+    margin-right: 10px;
+    color: slategray;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.psTabsBox li a:hover{
+	background-color: darkslategrey;
+	color: #fff;
+}
+
+.tabContent{
+	position: absolute;   
+    left: 220px;
+    top:10px;
+    display: none;
+    background-color: #fff;
+}
+.psTabsBox li:nth-child(1) .tabContent{
+	display: block;
+}
+.psTabsBox li:hover .tabContent{
+	display: block;
+}
+.psTabsBox li img{
+	transition: all 1s;
+	width:350px;
+	height:300px;
+	}
+
+.psTabsBox li img:hover{
+	animation: huangdong 0.4s forwards;
+}
+@keyframes huangdong{
+	0%{transform: rotate(0);}
+	15%{transform: rotate(0);}
+	30%{transform:rotate(-25deg)}
+	45%{transform: rotate(-25deg);}
+	60%{transform: rotate(-10deg);}
+	75%{transform: rotate(-10deg);}
+	90%{transform: rotate(-30deg);}
+	100%{transform: rotate(-30deg);}
+	
+}
+
+
+.content{
+	width: 100%;
+	height:800px;
+	position:relative;
+	overflow: hidden;
+	top:50px;
+}
+.content .primary{
+	width:70%;
+	height:800px;
+	float:right;
+	display:inline;
+	
+}
+.content .secondary{
+	width:29.5%;
+	float:left;
+	height:800px;
+	display:inline;
+	
+}
+.content .primary .primary{
+	width:55%;
+	float:left;
+	display: inline;
+	
+	
+}
+.content .primary .primary p{
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color:plum;
+}
+.content .primary .secondary{
+	width:43%;
+	float:right;
+	display: inline;
+	padding-right:5px;
+	
+	
+}
+
+.drawing ul{
+	border:1px solid #dedeaf;
+	background-color: #FFFFCC;
+	border-radius:5px;
+	margin:0;
+	padding:10px;
+	height:100%;
+	
+}
+
+.drawing ul li{
+	padding:10px 55px 10px 0;
+	position:relative;
+	border-bottom: 1px solid #dedeaf;
+	border-top: 1px solid #fff;
+	height:150px;
+}
+.drawing ul li h3{
+	margin-bottom:5px;
+	
+}
+.drawing ul li img{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:150px;
+	height:150px;
+	float:right;
+	
+}
+.darkBg ul li img:first-child{
+	height:140px;
+}
+.drawing ul li img:hover,
+.drawing ul li img:focus{
+	transform: scale3d(1.1,1.1,1.1);
+}
+.drawing ul li p.username{
+	margin:3px 0 0 0;
+	font-style:italic ;
+	font-size:12px;
+	
+}
+.drawing ul li p.username a{
+	color:#666;
+}
+.drawing ul li p.username a:hover,
+.drawing ul li p.username a:focus{
+	text-decoration:underline;
+}
+.drawing ul li:first-child{
+	padding-top:0;
+	border-top:none;
+}
+img{
+	width:100%;
+}
+h2{
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 30px;
+	color:black;
+	font-style: italic;
+	
+}
+
+
+
+
+
+.drawing1 ul{
+	border:1px solid #dedeaf;
+	background-color: #ffffcc;
+	border-radius:5px;
+	margin:0;
+	padding:10px;
+	height:100%;
+	
+}
+.drawing1 ul li{
+	padding:10px 0px 10px 172px;
+	position:relative;
+	border-bottom: 1px solid #dedeaf;
+	border-top: 1px solid #fff;
+	height:150px;
+}
+.drawing1 ul li h3{
+	margin-bottom:5px;
+	
+}
+.drawing1 ul li img{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:150px;
+	height:150px;
+	float:left;
+	
+}
+.darkBg ul li img:first-child{
+	height:140px;
+}
+.drawing1 ul li img:hover,
+.drawing1 ul li img:focus{
+	transform: scale3d(1.1,1.1,1.1);
+}
+.drawing1 ul li p.username{
+	margin:3px 0 0 0;
+	font-style:italic ;
+	font-size:12px;
+	
+}
+.drawing1 ul li p.username a{
+	color:#666;
+}
+.drawing1 ul li p.username a:hover,
+.drawing1 ul li p.username a:focus{
+	text-decoration:underline;
+}
+.drawing1 ul li:first-child{
+	padding-top:0;
+	border-top:none;
+}
+
