@@ -128,7 +128,7 @@
     	</div>
     </div>
   <div class="team">
- 
+  <h1>我们的摄影团队</h1>
   <div class="person">
   	<ul>
   		<li><img src="img/name1.png"/></li>
@@ -143,7 +143,7 @@
   </div>
   <div class="clear"></div>
   </div>
-  <img src="img/xj-photo.png" />
+  <img src="img/bh.jpg" />
   <footer>
 			<ul>
 				<li><h1>电话:000-000-0000</h1></li>
